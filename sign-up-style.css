@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+
+}
+
+header{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url(sign-up-background.jpg);
+	background-size: cover;
+	background-position: center;
+	min-width: 700px;
+	min-height: 400px;
+}
+
+.row{
+	max-width: 1500px;
+	margin: auto;
+}
+
+
+
+.main-nav{
+
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	margin-right: 10px;
+
+
+}
+
+.main-nav li{
+	display: inline-block;
+	padding: 5px 3px;
+}
+
+.main-nav a{
+
+	padding: 5px 15px;
+	color: rgba(255,255,255,.8);
+	text-decoration: none;
+	font-family: 'Arvo', serif;
+	font-size: 18px;
+}
+
+.main-nav a:hover{
+	color: rgba(255,255,255,0.7);
+	background: linear-gradient(to right, rgba(105, 125, 171,.5), rgba(163, 159, 198,.5));
+	padding: 5px 15px;
+	border: 0px solid white;
+	border-radius: 10px;
+}
+
+
+#contact-us {
+	border: 1px solid rgba(255,255,255,.8);
+	border-radius: 10px;
+}
+
+#contact-us:hover {
+
+	background: none;
+	color: rgba(255,255,255,0);
+	border: none;
+}
+
+
+
+
+.contact-form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 316px;
+	width: 300px;
+	background: linear-gradient(rgba(62, 57, 57, .7), rgba(62,57,57,1));
+	border-radius: 20px;
+}
+
+.center{
+	background: none;
+	display: flex;
+	justify-content: center;
+}
+
+.ver-center{
+	display: flex;
+	align-items: center;
+}
+
+.logo-head{
+	margin-top: -50px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	background-color: rgb(210,0,0);
+	cursor: pointer;
+}
+
+.logo-head:hover{
+
+	height: 84px;
+	width: 84px;
+	border: 8px solid rgba(0,0,0,0.1);
+}
+
+
+.logo-head img{
+	width: 50px;
+	height: 50px;
+}
+
+.input-form{
+background: none;
+
+}
+form{
+
+	background: none;
+}
+
+.in-text{
+
+	font-family: 'Poor Story', cursive;
+	font-size: 22px;
+    width: 193px;
+    height: 22px;
+    margin-left: 38px;
+    margin-top: 35px;
+    padding: 5px 10px;
+    border: 6px solid rgba(62, 57, 57, 0.79);
+    border-radius: 20px;
+    background-color: rgba(255,255,255,.7);
+}
+
+.input-form{
+	margin-top: -20px;
+}
+
+.in-submit{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 29px;
+	padding: 5px 10px;
+	border: 1px solid #20b6d0;
+	border-radius: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #20b6d0;
+	cursor: pointer;
+	background: none;
+}
+.in-submit:hover{
+	background-color: #20b6d0; 
+	color: #3e3939;
+}
+.hr-line{
+margin-top: 10px;
+background: rgb(0,0,0);
+height: 2px;
+}
+.snow{
+height: 90vh;
+
+}
